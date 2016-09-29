@@ -1,2 +1,2 @@
 # docker-tomcat
-Java Tomcat And Japanese
+Dockerfile for java / tomcat and Japanese
