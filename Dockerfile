@@ -54,7 +54,7 @@ RUN \
 RUN apt-get update && \
     apt-get install -y --force-yes python-pip && \
     apt-get clean && \
-    pip install dumb-init
+    pip install --no-cache-dir dumb-init
 
 # ==== environment ====
 RUN rm -rf /tomcat/webapps/ROOT \
